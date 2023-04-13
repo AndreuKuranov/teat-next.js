@@ -1,0 +1,29 @@
+.my-button {
+	background-image: linear-gradient(210deg, var(--additional-color-1) 10%, var(--additional-color-2));
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	min-height: 50px;
+  min-width: 50px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	padding: 0 15px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.07);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.my-button:hover {
+	opacity: 0.7;
+}
+.my-button:active {
+	opacity: 0.7;
+	color: var(--primary-color);
+}
+
+.big-btn {
+  font-size: 30px;
+  padding: 20px;
+}
