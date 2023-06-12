@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { useState } from "react";
 import cx from 'classnames';
 import styles from "@components/Navbar.module.scss";
@@ -10,7 +9,7 @@ const Navbar = () => {
     { id: 1, link: '/', name: 'Главная'},
     { id: 2, link: '/users', name: 'Пользователи'},
     { id: 3, link: '/cardPage', name: 'Карточка'},
-    { id: 3, link: '/eventsExample', name: 'event'},
+    { id: 4, link: '/eventsExample', name: 'event'},
   ])
 
   return (
